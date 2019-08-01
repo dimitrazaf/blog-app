@@ -1,0 +1,23 @@
+# Maven #
+#########
+target
+build
+
+# Eclipse #
+###########
+.settings
+bin
+.classpath
+.project
+
+# IDEA #
+########
+.idea
+*.iml
+
+# Fitnesse #
+############
+
+# Gatling #
+###########
+results
