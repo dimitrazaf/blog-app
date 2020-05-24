@@ -1,4 +1,4 @@
-package io.github.dimitrazaf.config
+package com.dz.playground.config
 
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration

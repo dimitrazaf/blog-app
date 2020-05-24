@@ -1,4 +1,4 @@
-package io.github.dimitrazaf.user
+package com.dz.playground.user
 
 import org.springframework.http.HttpHeaders
 import org.springframework.http.HttpStatus

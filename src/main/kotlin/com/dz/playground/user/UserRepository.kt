@@ -1,4 +1,4 @@
-package io.github.dimitrazaf.user
+package com.dz.playground.user
 
 import org.springframework.data.jdbc.repository.query.Query
 import org.springframework.data.repository.CrudRepository

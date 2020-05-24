@@ -1,4 +1,4 @@
-package io.github.dimitrazaf.user
+package com.dz.playground.user
 
 import org.slf4j.LoggerFactory
 import org.springframework.stereotype.Service
@@ -12,7 +12,7 @@ open class UserService(private val userRepository: UserRepository) {
     open fun addUser(user: User) {
         try {
             when {
-                userRepository.findUserByUserId(user.userName) != null -> {
+                userRepository.findUserByUserId(user.userName!!) != null -> {
                     LOG.debug("User with userName = ${user.userName} already exists")
                 }else -> {
                     val persistedUser = user.toPersistedUser()
